@@ -5,12 +5,12 @@
 
 ## Integrantes
 
-Bernardo Silva Berwanger          565776
-Gregory Debom Ferreira            562346
-João Vitor Angeloti Sena	        563473
-Laís Krajner Lacerda	          	563182
-Luana Magalhães Freire	      	  565305
-Pamella Souza da Silva Ferreira   566172
+Bernardo Silva Berwanger          565776 <br> 
+Gregory Debom Ferreira            562346 <br> 
+João Vitor Angeloti Sena	        563473 <br> 
+Laís Krajner Lacerda	          	563182 <br>
+Luana Magalhães Freire	      	  565305 <br>
+Pamella Souza da Silva Ferreira   566172 <br>
 
 ---
 
@@ -30,30 +30,30 @@ Esse processo apresenta fragilidades críticas: subjetividade nas avaliações, 
 ⤷ Cargo: Supervisor de Conservação de Rodovias — Motiva  
 ⤷ Contexto: Carlos coordena as equipes de campo em um trecho de 180km de rodovia. Ele recebe relatórios em planilha com atraso, não tem visibilidade do estado atual da vegetação em tempo real e precisa tomar decisões de priorização de manutenção sem dados confiáveis. Frequentemente descobre situações críticas apenas quando já geraram reclamações ou riscos reais ao tráfego.
 
-**Objetivos:**
-⤷ Visualizar o estado atual de todos os trechos de forma consolidada
-⤷ Priorizar intervenções com base em dados objetivos, não em "achismo"
-⤷ Acompanhar histórico de manutenções por trecho
-⤷ Receber alertas automáticos de situações críticas
+**Objetivos:** <br>
+⤷ Visualizar o estado atual de todos os trechos de forma consolidada <br>
+⤷ Priorizar intervenções com base em dados objetivos, não em "achismo" <br>
+⤷ Acompanhar histórico de manutenções por trecho <br>
+⤷ Receber alertas automáticos de situações críticas <br>
 
-**Frustrações:**
-⤷ Planilhas desatualizadas e fragmentadas
-⤷ Falta de rastreabilidade histórica
-⤷ Decisões baseadas em percepção subjetiva do inspetor
-⤷ Impossibilidade de escalar a operação sem aumentar a complexidade
+**Frustrações:** <br>
+⤷ Planilhas desatualizadas e fragmentadas <br>
+⤷ Falta de rastreabilidade histórica <br>
+⤷ Decisões baseadas em percepção subjetiva do inspetor <br>
+⤷ Impossibilidade de escalar a operação sem aumentar a complexidade <br>
 
 ---
 
 ## Proposta de Solução
 
-Um aplicativo mobile voltado ao supervisor de conservação, oferecendo:
+Um aplicativo mobile voltado ao supervisor de conservação, oferecendo: <br>
 
-⤷ Dashboard com visão geral dos trechos da rodovia: quantidade de trechos críticos, manutenções pendentes e última inspeção realizada
-⤷ Mapa interativo com colorização por status (verde / amarelo / vermelho) por trecho
-⤷ Detalhe por trecho: histórico de inspeções, fotos registradas e acionamento de equipe de manutenção
-⤷ Ranking de urgência: lista priorizada automaticamente pelos trechos mais críticos
-⤷ Alertas automáticos para anomalias (obstrução de placas, crescimento acelerado, situações pontuais)
-⤷ Relatório histórico com filtros por data e rodovia, e gráfico de evolução do status
+⤷ Dashboard com visão geral dos trechos da rodovia: quantidade de trechos críticos, manutenções pendentes e última inspeção realizada <br>
+⤷ Mapa interativo com colorização por status (verde / amarelo / vermelho) por trecho <br>
+⤷ Detalhe por trecho: histórico de inspeções, fotos registradas e acionamento de equipe de manutenção <br>
+⤷ Ranking de urgência: lista priorizada automaticamente pelos trechos mais críticos <br>
+⤷ Alertas automáticos para anomalias (obstrução de placas, crescimento acelerado, situações pontuais) <br>
+⤷ Relatório histórico com filtros por data e rodovia, e gráfico de evolução do status <br>
 
 ---
 
@@ -74,28 +74,28 @@ Um aplicativo mobile voltado ao supervisor de conservação, oferecendo:
 
 ## Requisitos
 
-### Requisitos Funcionais (RF)
+### Requisitos Funcionais (RF) <br>
 
-⤷ O sistema deve exibir um dashboard com resumo do estado atual dos trechos (críticos, atenção, ok)
-⤷ O sistema deve exibir um mapa interativo com colorização dos trechos por nível de urgência
-⤷ O usuário deve poder tocar em um trecho no mapa para visualizar seus detalhes
-⤷ O sistema deve exibir o histórico de inspeções e manutenções por trecho
-⤷ O sistema deve exibir um ranking de trechos ordenado por urgência de intervenção
-⤷ O sistema deve permitir o acionamento de equipe de manutenção diretamente pelo app
-⤷ O sistema deve emitir alertas automáticos para anomalias detectadas nos trechos
-⤷ O sistema deve exibir relatório histórico com filtros por data e rodovia
-⤷ O sistema deve suportar autenticação de usuário (login)
-⤷ O sistema deve funcionar com funcionalidades básicas mesmo sem conexão à internet (modo offline)
+⤷ O sistema deve exibir um dashboard com resumo do estado atual dos trechos (críticos, atenção, ok) <br>
+⤷ O sistema deve exibir um mapa interativo com colorização dos trechos por nível de urgência <br>
+⤷ O usuário deve poder tocar em um trecho no mapa para visualizar seus detalhes <br>
+⤷ O sistema deve exibir o histórico de inspeções e manutenções por trecho <br>
+⤷ O sistema deve exibir um ranking de trechos ordenado por urgência de intervenção <br>
+⤷ O sistema deve permitir o acionamento de equipe de manutenção diretamente pelo app <br>
+⤷ O sistema deve emitir alertas automáticos para anomalias detectadas nos trechos <br>
+⤷ O sistema deve exibir relatório histórico com filtros por data e rodovia <br>
+⤷ O sistema deve suportar autenticação de usuário (login) <br>
+⤷ O sistema deve funcionar com funcionalidades básicas mesmo sem conexão à internet (modo offline) <br>
 
-### Requisitos Não Funcionais (RNF)
+### Requisitos Não Funcionais (RNF) <br>
 
-⤷ O app deve ser compatível com Android e iOS
-⤷ O tempo de carregamento das telas principais não deve ultrapassar 3 segundos em conexão 4G
-⤷ A interface deve seguir princípios de acessibilidade (contraste adequado, tamanho de texto legível)
-⤷ Os dados de inspeção devem ser armazenados localmente quando offline e sincronizados ao retomar conexão
-⤷ O sistema deve garantir autenticação segura com token JWT
-⤷ O mapa deve renderizar trechos com suavidade, sem travamentos, para rodovias de até 500km
-⤷ A identidade visual deve ser consistente com a marca Motiva em todas as telas
+⤷ O app deve ser compatível com Android e iOS <br>
+⤷ O tempo de carregamento das telas principais não deve ultrapassar 3 segundos em conexão 4G <br>
+⤷ A interface deve seguir princípios de acessibilidade (contraste adequado, tamanho de texto legível) <br>
+⤷ Os dados de inspeção devem ser armazenados localmente quando offline e sincronizados ao retomar conexão <br>
+⤷ O sistema deve garantir autenticação segura com token JWT <br>
+⤷ O mapa deve renderizar trechos com suavidade, sem travamentos, para rodovias de até 500km <br>
+⤷ A identidade visual deve ser consistente com a marca Motiva em todas as telas <br>
 
 ---
 
