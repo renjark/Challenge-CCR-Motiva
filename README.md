@@ -1,4 +1,4 @@
-# NOME (a definir) - Gestão de Vegetação em Rodovias
+# Grovia - Gestão de Vegetação em Rodovias
 > Solução mobile para monitoramento e gestão da vegetação nas rodovias concedidas à Motiva.
 
 ---
@@ -26,7 +26,7 @@ Esse processo apresenta fragilidades críticas: subjetividade nas avaliações, 
 
 ## Persona
 
-⤷ Nome: Carlos Eduardo, 43 anos  
+⤷ Nome: Marcos  
 ⤷ Cargo: Supervisor de Conservação de Rodovias — Motiva  
 ⤷ Contexto: Carlos coordena as equipes de campo em um trecho de 180km de rodovia. Ele recebe relatórios em planilha com atraso, não tem visibilidade do estado atual da vegetação em tempo real e precisa tomar decisões de priorização de manutenção sem dados confiáveis. Frequentemente descobre situações críticas apenas quando já geraram reclamações ou riscos reais ao tráfego.
 
@@ -44,16 +44,14 @@ Esse processo apresenta fragilidades críticas: subjetividade nas avaliações, 
 
 ---
 
-## Proposta de Solução
-
-Um aplicativo mobile voltado ao supervisor de conservação, oferecendo: <br>
-
-⤷ Dashboard com visão geral dos trechos da rodovia: quantidade de trechos críticos, manutenções pendentes e última inspeção realizada <br>
-⤷ Mapa interativo com colorização por status (verde / amarelo / vermelho) por trecho <br>
-⤷ Detalhe por trecho: histórico de inspeções, fotos registradas e acionamento de equipe de manutenção <br>
-⤷ Ranking de urgência: lista priorizada automaticamente pelos trechos mais críticos <br>
-⤷ Alertas automáticos para anomalias (obstrução de placas, crescimento acelerado, situações pontuais) <br>
-⤷ Relatório histórico com filtros por data e rodovia, e gráfico de evolução do status <br>
+**Telas do protótipo:**
+ 
+| Tela | Descrição |
+|---|---|
+| Tela Inicial | Dashboard com status dos trechos, manutenções pendentes e alertas recentes |
+| Mapa da Rodovia | Visualização geográfica com trechos coloridos por urgência e card de trecho selecionado |
+| Ranking de Urgência | Lista priorizada dos trechos mais críticos com barra de urgência e botão de acionamento |
+| Notificações | Central de alertas automáticos organizados por data |
 
 ---
 
@@ -101,4 +99,4 @@ Um aplicativo mobile voltado ao supervisor de conservação, oferecendo: <br>
 
 ## Links
 
-⤷ Protótipo no Figma: [link]
+⤷ Protótipo no Figma:[https://www.figma.com/design/2q0e7OFOKzfeIxQZSM0S6a/Motiva-Grovia?node-id=130-115&t=BfQdEL27nJ99Mdng-0]
